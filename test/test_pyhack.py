@@ -6,7 +6,7 @@
 Fichier de tests.
 """
 
-from .pyhack import pyhack
+from .. import pyhack
 
 carte = pyhack.Map(200, 200)
 carte.gen_board()
