@@ -10,10 +10,15 @@ pipenv run pytest (-s for printing all)
 
 """
 
-from pyhack import pyhack
 
-print("La version du programme est", pyhack.__version__)
+# from pyhack import pyhack
+
+# carte = pyhack.Map(200, 200)
 
 
-carte = pyhack.Map(200, 200)
-# carte.gen_board()
+def inc(x):
+    return x + 1
+
+
+def test_answer():
+    assert inc(3) == 4
