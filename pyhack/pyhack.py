@@ -30,7 +30,7 @@ from itertools import product
 from operator import add
 from random import choice, randrange
 
-import log
+from pyhack import log
 
 # Vérification de la version de l'installation
 try:
@@ -47,6 +47,12 @@ try:
 except ImportError:
     subprocess.run(["pip", "install", "-r", "../requirements.txt"], check=True)
     raise SystemExit()
+
+
+__version__ = "1.0.0"
+__author__ = "VINCENT Nicolas" + "Alan Dione"
+__licence__ = "GPLv3"
+
 
 # pylint: disable=logging-format-interpolation
 # pylint: disable=logging-fstring-interpolation
