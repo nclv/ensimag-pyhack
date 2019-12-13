@@ -9,7 +9,7 @@ python3 launch.py -m
 """
 
 
-import pyhack
+from pyhack import pyhack  # don't work but no pytest errors
 
 # TODO: déplacer le main dans launch.py
 pyhack.main()  # temporaire
