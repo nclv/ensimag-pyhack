@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-# __version__ = "1.0.0"
-# __author__ = "VINCENT Nicolas" + "Alan Dione"
 
 """
 Nicolas VINCENT / Alan Dione
@@ -30,7 +28,12 @@ from itertools import product
 from operator import add
 from random import choice, randrange
 
-from pyhack import log
+# seul import log doit être utile car on n'importe pas pyhack dans les tests
+# on laisse la gestion d'exception pour plus de sécurité
+try:
+    from pyhack import log  # pour les tests
+except ImportError:
+    import log  # pour launch.py
 
 # Vérification de la version de l'installation
 try:

@@ -10,9 +10,10 @@ pipenv run pytest (-s for printing all)
 
 """
 
+# ne pas importer directement de pyhack, tester seulement les sous-modules
+# car il y a dans pyhack import log qui doit être changé en from pyhack import log
 
 # from pyhack import pyhack
-
 # carte = pyhack.Map(200, 200)
 
 
