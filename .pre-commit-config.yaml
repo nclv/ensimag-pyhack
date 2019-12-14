@@ -30,7 +30,7 @@ repos:
     name: pytest
     stages: [commit]
     language: system
-    entry: pipenv run pytest
+    entry: pipenv run pytest -v
     types: [python]
     pass_filenames: false
 # pass_filenames est nécessaire à cause de launch.py qui importe pyhack
@@ -39,6 +39,6 @@ repos:
     name: pytest
     stages: [push]
     language: system
-    entry: pipenv run pytest --cov # --cov-fail-under=0
+    entry: pipenv run pytest -v --cov # --cov-fail-under=0
     types: [python]
     pass_filenames: false
