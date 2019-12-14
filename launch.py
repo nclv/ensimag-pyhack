@@ -8,7 +8,7 @@ launch.py : fichier de lancement.
 python3 launch.py -m
 """
 
+if __name__ == "__main__":
+    from pyhack import pyhack
 
-from pyhack import pyhack
-
-pyhack.main()
+    pyhack.main()
