@@ -33,6 +33,7 @@ repos:
     entry: pipenv run pytest
     types: [python]
     pass_filenames: false
+# pass_filenames est nécessaire à cause de launch.py qui importe pyhack
 
   - id: pytest-cov
     name: pytest
