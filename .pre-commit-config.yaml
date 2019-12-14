@@ -1,6 +1,6 @@
 # See https://pre-commit.com/ for usage and config
 # Run hooks only on pyhack, others staged files will be commited without being checked
-#exclude: '^(?!Projets/pyhack/)'
+#exclude: '^(?!launch.py)'
 repos:
 - repo: local
   hooks:
@@ -32,6 +32,7 @@ repos:
     language: system
     entry: pipenv run pytest
     types: [python]
+    pass_filenames: false
 
   - id: pytest-cov
     name: pytest

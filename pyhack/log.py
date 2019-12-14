@@ -22,7 +22,7 @@ program from running.
 import logging
 import os
 
-here = os.path.abspath(os.path.dirname(__file__))
+HERE = os.path.abspath(os.path.dirname(__file__))
 
 
 def setup_custom_logger(name):
@@ -33,7 +33,7 @@ def setup_custom_logger(name):
     """
     # create file handler which logs even debug messages
     filehandler = logging.FileHandler(
-        filename=f"{here}/game.log", mode="w", encoding="utf-8"
+        filename=f"{HERE}/game.log", mode="w", encoding="utf-8"
     )
     filehandler.setLevel(logging.DEBUG)
     # create console handler with a higher log level

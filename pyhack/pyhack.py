@@ -48,7 +48,9 @@ except AssertionError:
 try:
     import numpy as np
 except ImportError:
-    subprocess.run(["pip", "install", "-r", "../requirements.txt"], check=True)
+    subprocess.run(
+        ["python3", "-m", "pip", "install", "-r", "../requirements.txt"], check=True
+    )
     raise SystemExit()
 
 
@@ -919,7 +921,7 @@ def get_terminal_size():
     )
 
 
-def get_parser():
+def create_parser():
     """Création du parser et de tous ses arguments.
 
     Returns:
@@ -952,7 +954,7 @@ def get_parser():
 
 def main():
     """main function."""
-    args, _ = get_parser()
+    args, _ = create_parser()
     height, width = get_terminal_size()
     # on laisse un espace entre les colonnes mais pas entre les lignes
     carte = Map(height - 1, width // 2)
