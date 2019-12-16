@@ -1,4 +1,3 @@
-16-Dec-19 09:46:34 - root                                     INFO     Setting up pyhack logger in pyhack.py
 16-Dec-19 09:46:34 - root                                     INFO     Setting up test_structures logger in test/
 16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    Création d'une instance de Room.
 16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    La pièce comporte 36 cases.

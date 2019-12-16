@@ -25,7 +25,7 @@ pipenv run pre-commit install -t pre-push
 ```
 Les packages suivants sont directements disponibles :
 ```sh
-black, isort, flake8, pytest, pytest --cov --cov-fail-under=100
+black, isort, flake8, pytest (-s -v), pytest --cov --cov-fail-under=100
 ```
 
 Voici maintenant quelques indications :
@@ -43,10 +43,12 @@ bash performances.sh perf.prof pyhack.py
  - ```pyhack.py```: Code de base à exécuter.
  - ```utils.py```: Fonctions utilitaires.
  - ```launch.py```: Lancement du jeu.
- - ```game.log```: Fichier log de la génération et du déroulement de la partie.
+ -```log.py```: Création du logger.
+ - ```game.log```: Fichier log de la génération de la carte et du déroulement de la partie.
 
 ### TODO
 - [x] Setup tests in test/
+- [ ] Implémenter get_terminal_size() sur Windows.
 
 ## Download
 

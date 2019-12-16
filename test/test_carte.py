@@ -3,7 +3,7 @@
 
 
 """
-test_pyhack.py
+test_carte.py
 """
 
-from pyhack.pyhack import main
+from pyhack.carte import Map
