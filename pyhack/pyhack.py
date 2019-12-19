@@ -4,16 +4,6 @@
 
 """
 pyhack.py : main file.
-Nicolas VINCENT / Alan Dione
-Projet pyhack (voir pyhack.pdf)
-
-On stocke l'état d'une case dans un array numpy 2D
-
-Room représente une pièce sur la carte
-
-On place les pièces. On crée ensuite un labyrinthe entre les pièces.
-Finalement, on relie le tout et on supprime les couloirs inutiles
-
 """
 
 
@@ -105,7 +95,6 @@ class OutOfWalkableError(Exception):
 def draw_board(board, affichage, cases_visibles):
     """Affiche le dongeon sur le terminal.
 
-    # TODO: sauvegarder plusieurs plateaux de debug
     Pour le mode debug: AFFICHAGE_DEBUG et carte.cases
 
     Parameters:

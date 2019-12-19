@@ -59,9 +59,12 @@ bash performances.sh perf.prof pyhack.py
 
 ### Fichiers
  - ```pyhack.py```: Code de base à exécuter.
- - ```utils.py```: Fonctions utilitaires.
  - ```launch.py```: Lancement du jeu.
+ - ```carte.py```: Représentation et génération de la carte.
+ - ```structures.py```: Fichier contenant la classe ```Room```.
  - ```log.py```: Création du logger.
+ - ```utils.py```: Fonctions utilitaires.
+ - ```const.py```: Constantes du jeu.
  - ```game.log```: Fichier log de la génération de la carte et du déroulement de la partie.
 
 ### TODO
@@ -69,6 +72,7 @@ bash performances.sh perf.prof pyhack.py
 - [x] Faire les tests dans ```test/```.
 - [ ] Implémenter ```get_terminal_size()``` sur Windows.
 - [ ] Sauvegarde d'une partie en cours.
+- [ ] Sauvegarde de plusieurs plateaux de debug.
 - [ ] Création de différents niveaux de difficulté.
 
 ## Download
