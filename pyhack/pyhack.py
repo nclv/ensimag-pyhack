@@ -3,6 +3,7 @@
 
 
 """
+pyhack.py : main file.
 Nicolas VINCENT / Alan Dione
 Projet pyhack (voir pyhack.pdf)
 
@@ -96,8 +97,6 @@ AFFICHAGE = {
 
 DEFAULT_SIZE = (60, 60)
 
-# TODO: réorganiser les classes avec SOLID
-
 
 class OutOfWalkableError(Exception):
     """Raised when you try to move in a wall."""
@@ -134,7 +133,10 @@ def clear():
 def while_true(func):
     """Décore la fonction d'une boucle while True pour les inputs.
 
-    Erreurs personnalisées OutOfWalkableError
+    Erreurs personnalisées.
+
+    Requires:
+        OutOfWalkableError (Exception): //
 
     """
 

@@ -1,9 +1,9 @@
-16-Dec-19 09:46:34 - root                                     INFO     Setting up test_structures logger in test/
-16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    Création d'une instance de Room.
-16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    La pièce comporte 36 cases.
-16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    Création d'une instance de Room.
-16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    La pièce comporte 16 cases.
-16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    Création d'une instance de Room.
-16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    La pièce comporte 36 cases.
-16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    Création d'une instance de Room.
-16-Dec-19 09:46:34 - pyhack.structures.Room                   DEBUG    La pièce comporte 16 cases.
+19-Dec-19 14:58:03 - root                                     INFO     Setting up test_structures logger in test/
+19-Dec-19 14:58:03 - pyhack.structures.Room                   DEBUG    Création d'une instance de Room.
+19-Dec-19 14:58:03 - pyhack.structures.Room                   DEBUG    La pièce comporte 36 cases.
+19-Dec-19 14:58:03 - pyhack.structures.Room                   DEBUG    Création d'une instance de Room.
+19-Dec-19 14:58:03 - pyhack.structures.Room                   DEBUG    La pièce comporte 16 cases.
+19-Dec-19 14:58:03 - pyhack.structures.Room                   DEBUG    Création d'une instance de Room.
+19-Dec-19 14:58:03 - pyhack.structures.Room                   DEBUG    La pièce comporte 36 cases.
+19-Dec-19 14:58:03 - pyhack.structures.Room                   DEBUG    Création d'une instance de Room.
+19-Dec-19 14:58:03 - pyhack.structures.Room                   DEBUG    La pièce comporte 16 cases.
